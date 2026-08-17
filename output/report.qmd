@@ -1,0 +1,106 @@
+---
+title: "Title of the HTML Document"
+execute:
+  echo: false
+fig-cap-location: top
+format:
+  html:
+    title-block-banner: "header_image.svg"
+toc: true
+toc-title: "Contents"
+title-block-banner: true
+toc-depth: 3
+toc-location: left
+embed-resources: true
+css: style.css
+---
+
+# This is document for testing the function
+
+This is an example of the Normal style used in a Microsoft Word
+document. The normal paragraph style is typically used for the main body
+text of a document. It provides the default font, spacing, and alignment
+settings for regular content.
+
+When rendering a Quarto document, this style is usually converted into
+standard HTML paragraphs.You can use this section to evaluate
+readability, spacing, margins, and text flow. This example helps verify
+how content appears after conversion from Word to HTML.
+
+# Heading 1
+
+This section demonstrates content placed under a Heading 1 style. A
+first-level heading is commonly used to define major sections within a
+document.
+
+When rendered through Quarto, it is typically converted to an HTML
+\<h1\> element. You can inspect the font size, weight, spacing before
+and after the heading, and hierarchy.
+
+This placeholder text is intended to help assess the visual appearance
+of the generated output.
+
+## Heading 2
+
+This section demonstrates content placed under a Heading 2 style. A
+second-level heading is usually used for subsections within a larger
+section.
+
+When converting a Quarto document to HTML, this heading is generally
+mapped to an \<h2\> element. Use this example to verify indentation,
+font scaling, spacing rules, and style consistency.
+
+The purpose of this text is to provide enough content to evaluate the
+rendered design.
+
+### Figure 1 illustrates how figures extracted from the document and captions may appear in the final rendered document. I have use H3 for this block of text.
+
+This is a stock image from the MS Word library (leave empty line after
+that and leave empty the alt text):
+
+![](media/image2.svg){width=100%}
+
+This placement is intended to test how anchored images with
+top-and-bottom wrapping are converted and rendered when the Quarto
+document is transformed into HTML.
+
+### Figure 2 illustrates how figures extracted from the document and may appear in the HTML document. I have use H3 for this block.
+
+This is an illustration from the MS word stock. If the image has alt tex
+it will be shown as caption on the top:
+
+![I have entered Alt tex for this illustration. Better to leave empty
+this space? What do you
+think?](media/image4.svg){width="4.0625in"
+height="4.0625in"}
+
+With this example we also want to test if the function captures the
+image in the righ order and place them in the right position. The rest
+of the text will be here. This is again a normal style font, showcasing
+a parragraph as long as you want.
+
+The next bit, gives you instructions on how to set the position of the
+pictures for best result when converting to html. And also will show how
+bullets points looks like. For that in your document , use the
+"Bulleted" style.
+
+# Image Placement Instructions and bullet point example
+
+-   Insert the image on an empty paragraph directly below this text.
+
+-   The image must be anchored to the empty line so that its position
+    remains fixed relative to the surrounding content.
+
+-   Whe you click in the image you must see a little anchor with a lock
+
+-   Set the text wrapping option to \"Top and Bottom\". This ensures
+    that text appears above and below the image only, without flowing
+    alongside it.
+
+-   Center the image horizontally on the page.
+
+-   Vertical: absolute position to parragrah.
+
+-   Lock anchor and don't allow overlap.
+
+-   Maintain the image aspect ratio when resizing.

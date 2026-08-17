@@ -110,7 +110,7 @@ make_qmd3 <- function(docx_path) {
   # write qmd
   writeLines(
     output_lines,
-    here::here("output", "report_to_render.qmd")
+    here::here("output", "report.qmd")
   )
   
   return(here::here("output"))
